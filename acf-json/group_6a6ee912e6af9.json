@@ -1,0 +1,595 @@
+{
+  "key": "group_6a6ee912e6af9",
+  "title": "تنظیمات عمومی",
+  "fields": [
+    {
+      "key": "field_6a6ee913cd8fc",
+      "label": "آواتار کاربر",
+      "name": "user_avatar",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "url",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": "",
+      "allow_in_bindings": 0,
+      "preview_size": "medium"
+    },
+    {
+      "key": "field_6a7588b2facc1",
+      "label": "اطلاعات صفحه خدمت",
+      "name": "sevice_page_information",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_6a7588e1facc2",
+          "label": "عنوان",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "پاسخگوی سوالات شما هستیم",
+          "maxlength": "",
+          "allow_in_bindings": 0,
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_6a75892afacc3",
+          "label": "شماره تماس واحد خدمات",
+          "name": "phone_number",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "09121113333",
+          "maxlength": "",
+          "allow_in_bindings": 0,
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_6a758970facc4",
+          "label": "ایمیل واحد خدمات",
+          "name": "email",
+          "aria-label": "",
+          "type": "email",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "examle76@gmail.com",
+          "allow_in_bindings": 0,
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_6a7589b4facc5",
+          "label": "آیکن دعوت به تماس صفحه خدمت",
+          "name": "icon",
+          "aria-label": "",
+          "type": "bootstrap_icons",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "allow_in_bindings": 0
+        }
+      ]
+    },
+    {
+      "key": "field_6a761e0b24d51",
+      "label": "اطلاعات شرکت",
+      "name": "company_informations",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_6a880236b58d2",
+          "label": "عنوان",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "maxlength": "",
+          "allow_in_bindings": 0,
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_6a761e3424d52",
+          "label": "بخش آدرس",
+          "name": "address_section",
+          "aria-label": "",
+          "type": "group",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "layout": "block",
+          "sub_fields": [
+            {
+              "key": "field_6a761ee024d53",
+              "label": "آدرس شرکت",
+              "name": "company_address",
+              "aria-label": "",
+              "type": "textarea",
+              "instructions": "",
+              "required": 0,
+              "conditional_logic": 0,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "default_value": "تهران، خیابان صیادشیرازی، کوچه باران، ساختمان ارغوان",
+              "maxlength": "",
+              "allow_in_bindings": 0,
+              "rows": "",
+              "placeholder": "",
+              "new_lines": ""
+            },
+            {
+              "key": "field_6a761f1324d54",
+              "label": "آیکن آدرس شرکت",
+              "name": "icon_address",
+              "aria-label": "",
+              "type": "bootstrap_icons",
+              "instructions": "",
+              "required": 0,
+              "conditional_logic": 0,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "allow_in_bindings": 0
+            }
+          ]
+        },
+        {
+          "key": "field_6a761fc864c7d",
+          "label": "بخش شماره تلفن",
+          "name": "phone_number_section",
+          "aria-label": "",
+          "type": "group",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "layout": "block",
+          "sub_fields": [
+            {
+              "key": "field_6a76200264c7e",
+              "label": "شماره تلفن شرکت",
+              "name": "company_phone_number",
+              "aria-label": "",
+              "type": "text",
+              "instructions": "",
+              "required": 0,
+              "conditional_logic": 0,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "default_value": "02134562",
+              "maxlength": "",
+              "allow_in_bindings": 0,
+              "placeholder": "",
+              "prepend": "",
+              "append": ""
+            },
+            {
+              "key": "field_6a76203364c7f",
+              "label": "ایکن تلفن شرکت",
+              "name": "phone_icon",
+              "aria-label": "",
+              "type": "bootstrap_icons",
+              "instructions": "",
+              "required": 0,
+              "conditional_logic": 0,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "allow_in_bindings": 0
+            }
+          ]
+        },
+        {
+          "key": "field_6a7620eeb44e4",
+          "label": "بخش ایمیل شرکت",
+          "name": "company_email_section",
+          "aria-label": "",
+          "type": "group",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "layout": "block",
+          "sub_fields": [
+            {
+              "key": "field_6a762113b44e5",
+              "label": "ایمیل شرکت",
+              "name": "company_email",
+              "aria-label": "",
+              "type": "email",
+              "instructions": "",
+              "required": 0,
+              "conditional_logic": 0,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "default_value": "example45@gmail.com",
+              "allow_in_bindings": 0,
+              "placeholder": "",
+              "prepend": "",
+              "append": ""
+            },
+            {
+              "key": "field_6a76214bb44e6",
+              "label": "آیکن ایمیل شرکت",
+              "name": "email_icon",
+              "aria-label": "",
+              "type": "bootstrap_icons",
+              "instructions": "",
+              "required": 0,
+              "conditional_logic": 0,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "allow_in_bindings": 0
+            }
+          ]
+        },
+        {
+          "key": "field_6a8716dd12765",
+          "label": "توضیحات شرکت",
+          "name": "company_description",
+          "aria-label": "",
+          "type": "textarea",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "خلق بازآفرینی طراحی ارتباط فرهنگ! ایده‌پردازی طبیعت تجربه گیرنده مدیریت اقتصاد مسئولیت انتخاب خلق. فرستنده متاورس مجازی عدالت استارتاپ مصنوعی بیمه رابط بهداشت گسترش واقعیت آگاهی شناخت بازاندیشانه؟ طراحی قانون مشتری بازار وفاداری مصنوعی استارتاپ دستاوردهای بهبود هوا یادگیری؟",
+          "maxlength": "",
+          "allow_in_bindings": 0,
+          "rows": "",
+          "placeholder": "",
+          "new_lines": ""
+        }
+      ]
+    },
+    {
+      "key": "field_6a871a1d95b7f",
+      "label": "ستون اول فوتر",
+      "name": "first_column",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_6a871a4495b80",
+          "label": "عنوان",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "لینک‌های مفید",
+          "maxlength": "",
+          "allow_in_bindings": 0,
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_6a871a8095b81",
+          "label": "لینک‌ها",
+          "name": "links",
+          "aria-label": "",
+          "type": "repeater",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "layout": "table",
+          "pagination": 0,
+          "min": 0,
+          "max": 0,
+          "collapsed": "",
+          "button_label": "سطر جدید",
+          "rows_per_page": 20,
+          "sub_fields": [
+            {
+              "key": "field_6a871ac095b82",
+              "label": "لینک‌های مفید",
+              "name": "useful_links",
+              "aria-label": "",
+              "type": "link",
+              "instructions": "",
+              "required": 0,
+              "conditional_logic": 0,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "return_format": "array",
+              "allow_in_bindings": 0,
+              "parent_repeater": "field_6a871a8095b81"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_6a871ba41b029",
+      "label": "ستون دوم فوتر",
+      "name": "second_column",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_6a871bc21b02a",
+          "label": "عنوان",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "نمونه‌کارها",
+          "maxlength": "",
+          "allow_in_bindings": 0,
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_6a871c001b02b",
+          "label": "لینک‌ها",
+          "name": "links",
+          "aria-label": "",
+          "type": "repeater",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "layout": "table",
+          "pagination": 0,
+          "min": 0,
+          "max": 0,
+          "collapsed": "",
+          "button_label": "سطر جدید",
+          "rows_per_page": 20,
+          "sub_fields": [
+            {
+              "key": "field_6a871c2a1b02c",
+              "label": "لینک نمونه‌کار",
+              "name": "portfolio_link",
+              "aria-label": "",
+              "type": "link",
+              "instructions": "",
+              "required": 0,
+              "conditional_logic": 0,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "return_format": "array",
+              "allow_in_bindings": 0,
+              "parent_repeater": "field_6a871c001b02b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_6a871cd609aa7",
+      "label": "شبکه‌های اجتماعی شرکت",
+      "name": "company_social_networks",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "table",
+      "pagination": 0,
+      "min": 0,
+      "max": 0,
+      "collapsed": "",
+      "button_label": "سطر جدید",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_6a871d0f09aa8",
+          "label": "آیکن شبکه اجتماعی",
+          "name": "icon",
+          "aria-label": "",
+          "type": "bootstrap_icons",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "allow_in_bindings": 0,
+          "parent_repeater": "field_6a871cd609aa7"
+        },
+        {
+          "key": "field_6a871d2709aa9",
+          "label": "لینک شبکه اجتماعی",
+          "name": "social_media_link",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "allow_in_bindings": 0,
+          "parent_repeater": "field_6a871cd609aa7"
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "theme-settings"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 0,
+  "display_title": "",
+  "allow_ai_access": false,
+  "ai_description": "",
+  "modified": 1788858594
+}
